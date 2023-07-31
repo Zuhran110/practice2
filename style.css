@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font: "gilroy";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+#left {
+  position: relative;
+  height: 100%;
+  width: 40%;
+}
+
+#lnav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+  align-items: center;
+}
+
+#lnavr{
+  display: flex;
+  align-items: center;
+}
+
+#lnavr a{
+  margin: 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 520;
+  font-size: 18px;
+}
+
+#lnav i{
+  color: royalblue;
+}
+
+#left #center-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#center-text h1{
+  font-size: 90px;
+  font-weight: bolder;
+}
+
+#center-text p{
+  opacity: .6;
+  line-height: 20px;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#center-text a{
+  text-decoration: none;
+  color: #000;
+  border-bottom:1px solid #000;
+  padding-bottom: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  opacity: .6;
+}
+
+#rigth {
+  height: 100%;
+  width: 60%;
+}
+
+#up {
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+
+#down {
+  height: 50%;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1552089123-2d26226fc2b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80);
+  background-size: cover;
+  background-position: center;
+}
+
+#uleft {
+  height: 100%;
+  width: 50%;
+  background-image: url(https://images.unsplash.com/photo-1589820296156-2454bb8a6ad1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);
+  background-size: cover;
+  background-position: bottom center;
+}
+
+#urigth {
+  height: 100%;
+  width: 50%;
+background-image: url(https://images.unsplash.com/photo-1580052614034-c55d20bfee3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);
+background-size: cover;
+background-position: bottom center;
+}
+
+
+
